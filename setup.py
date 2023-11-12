@@ -8,9 +8,8 @@ from setuptools import setup
 from wagtailstreamforms import __version__
 
 install_requires = [
-    "wagtail>=4.1,<4.3",
-    "Unidecode>=0.04.14,<2.0",
-    "wagtail-generic-chooser>=0.5.0,<0.6",
+    "wagtail>=5",
+    "Unidecode>=1",
 ]
 
 here = path.abspath(path.dirname(__file__))
