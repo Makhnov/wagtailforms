@@ -1,4 +1,6 @@
 import csv
+import openpyxl
+from io import BytesIO
 import datetime
 
 from django.core.exceptions import PermissionDenied
@@ -47,6 +49,9 @@ class SubmissionListView(SingleObjectMixin, ListView):
         if request.GET.get("action") == "CSV":
             return self.csv()
 
+        if request.GET.get("action") == "XLSX":
+            return self.xlsx(request)
+        
         return super().get(request, *args, **kwargs)
 
     def csv(self):
@@ -68,6 +73,54 @@ class SubmissionListView(SingleObjectMixin, ListView):
 
         return response
 
+    def xlsx(self, request):        
+        queryset = self.get_queryset()
+        data_fields = self.object.get_data_fields()
+        data_headings = [smart_str(label) for name, label in data_fields]
+
+        # Création du workbook Excel et de la feuille active
+        wb = openpyxl.Workbook()
+        ws = wb.active
+
+        # Ajouter les en-têtes
+        ws.append([str(heading) for heading in data_headings])
+
+        # Ajouter les données
+        for s in queryset:
+            data_row = []
+            form_data = s.get_data()
+            for name, label in data_fields:
+                value = form_data.get(name)
+
+                # Convertir True/False en Oui/Non
+                if isinstance(value, bool):
+                    value = 'Oui' if value else 'Non'
+
+                # Générer un lien pour les fichiers
+                elif name == 'document':
+                    files = s.files.all()
+                    if files:
+                        file_urls = [request.build_absolute_uri(file.file.url) for file in files]
+                        value = ', '.join(file_urls)
+                    else:
+                        value = ''
+
+                data_row.append(smart_str(value) if value is not None else '')
+            ws.append(data_row)
+
+        # Préparation de la réponse HTTP
+        response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+        response['Content-Disposition'] = 'attachment; filename=export.xlsx'
+
+        # Sauvegarde du workbook dans la réponse
+        with BytesIO() as b:
+            wb.save(b)
+            b.seek(0)
+            response.write(b.read())
+
+        return response
+
+    
     def get_queryset(self):
         submission_class = self.object.get_submission_class()
         self.queryset = submission_class._default_manager.filter(form=self.object)
