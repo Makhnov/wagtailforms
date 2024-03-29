@@ -8,6 +8,8 @@ from wagtailstreamforms import hooks
 from wagtailstreamforms.utils.apps import get_app_submodules
 from wagtailstreamforms.utils.general import get_slug_from_string
 
+from django.utils.translation import gettext_lazy as _
+
 _fields = {}
 _searched_for_fields = False
 
@@ -156,14 +158,15 @@ class BaseField:
         """
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
-                ("default_value", blocks.CharBlock(required=False)),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
+                ("default_value", blocks.CharBlock(required=False, label=_("Default Value"))),
             ],
             icon=self.icon,
             label=self.label,
         )
+
 
 
 class HookMultiSelectFormField(forms.MultipleChoiceField):
