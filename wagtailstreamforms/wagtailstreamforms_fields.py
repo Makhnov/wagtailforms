@@ -70,11 +70,11 @@ class DropdownField(BaseField):
     def get_form_block(self):
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
-                ("empty_label", blocks.CharBlock(required=False)),
-                ("choices", blocks.ListBlock(blocks.CharBlock(label="Option"))),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
+                ("empty_label", blocks.CharBlock(required=False, label=_("Empty Label"))),
+                ("choices", blocks.ListBlock(blocks.CharBlock(label=_("Option")), label=_("Options"))),
             ],
             icon=self.icon,
             label=self.label,
@@ -100,10 +100,10 @@ class MultiSelectField(BaseField):
     def get_form_block(self):
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
-                ("choices", blocks.ListBlock(blocks.CharBlock(label="Option"))),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
+                ("choices", blocks.ListBlock(blocks.CharBlock(label=_("Option")), label=_("Options"))),
             ],
             icon=self.icon,
             label=self.label,
@@ -130,10 +130,10 @@ class RadioField(BaseField):
     def get_form_block(self):
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
-                ("choices", blocks.ListBlock(blocks.CharBlock(label="Option"))),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
+                ("choices", blocks.ListBlock(blocks.CharBlock(label=_("Option")), label=_("Options"))),
             ],
             icon=self.icon,
             label=self.label,
@@ -160,10 +160,10 @@ class CheckboxesField(BaseField):
     def get_form_block(self):
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
-                ("choices", blocks.ListBlock(blocks.CharBlock(label="Option"))),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
+                ("choices", blocks.ListBlock(blocks.CharBlock(label=_("Option")), label=_("Options"))),
             ],
             icon=self.icon,
             label=self.label,
@@ -178,9 +178,9 @@ class CheckboxField(BaseField):
     def get_form_block(self):
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
             ],
             icon=self.icon,
             label=self.label,
@@ -203,9 +203,9 @@ class SingleFileField(BaseField):
     def get_form_block(self):
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
             ],
             icon=self.icon,
             label=self.label,
@@ -239,9 +239,9 @@ class MultiFileField(BaseField):
     def get_form_block(self):
         return blocks.StructBlock(
             [
-                ("label", blocks.CharBlock()),
-                ("help_text", blocks.CharBlock(required=False)),
-                ("required", blocks.BooleanBlock(required=False)),
+                ("label", blocks.CharBlock(label=_("Label"))),
+                ("help_text", blocks.CharBlock(required=False, label=_("Help Text"))),
+                ("required", blocks.BooleanBlock(required=False, label=_("Required"))),
             ],
             icon=self.icon,
             label=self.label,
