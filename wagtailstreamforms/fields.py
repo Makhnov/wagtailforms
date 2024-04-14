@@ -175,8 +175,12 @@ class HookMultiSelectFormField(forms.MultipleChoiceField):
 
 class HookSelectField(models.Field):
     def get_choices_default(self):
+        hook_labels = {
+            'email_submission': _("Send an email with the submission"),
+            'save_form_submission_data': _("Save the form submission data to the database"),
+        }
         return [
-            (fn.__name__, capfirst(fn.__name__.replace("_", " ")))
+            (fn.__name__, hook_labels.get(fn.__name__, capfirst(fn.__name__.replace("_", " "))))
             for fn in hooks.get_hooks("process_form_submission")
         ]
 
