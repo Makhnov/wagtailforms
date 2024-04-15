@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-14 10:20+0200\n"
+"POT-Creation-Date: 2024-04-15 12:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,209 +18,224 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\blocks.py:37
+#: .\venv\Lib\site-packages\wagtailstreamforms\blocks.py:37
 msgid "The form post action. \"\" or \".\" for the current page or a url"
 msgstr ""
 "L'action de publication du formulaire. \"\" ou \".\" pour la page actuelle "
 "ou une URL"
 
-#: .\blocks.py:41
+#: .\venv\Lib\site-packages\wagtailstreamforms\blocks.py:41
 msgid "This form will be given a unique reference once saved"
 msgstr "Ce formulaire recevra une référence unique une fois enregistré"
 
-#: .\conf.py:6
+#: .\venv\Lib\site-packages\wagtailstreamforms\conf.py:6
 msgid "Streamforms"
 msgstr "Formulaires"
 
-#: .\fields.py:161 .\wagtailstreamforms_fields.py:73
-#: .\wagtailstreamforms_fields.py:103 .\wagtailstreamforms_fields.py:133
-#: .\wagtailstreamforms_fields.py:163 .\wagtailstreamforms_fields.py:181
-#: .\wagtailstreamforms_fields.py:206 .\wagtailstreamforms_fields.py:242
+#: .\venv\Lib\site-packages\wagtailstreamforms\fields.py:161
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:73
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:103
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:133
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:163
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:181
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:206
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:242
 msgid "Label"
 msgstr "Intitulé"
 
-#: .\fields.py:162 .\wagtailstreamforms_fields.py:74
-#: .\wagtailstreamforms_fields.py:104 .\wagtailstreamforms_fields.py:134
-#: .\wagtailstreamforms_fields.py:164 .\wagtailstreamforms_fields.py:182
-#: .\wagtailstreamforms_fields.py:207 .\wagtailstreamforms_fields.py:243
+#: .\venv\Lib\site-packages\wagtailstreamforms\fields.py:162
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:74
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:104
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:134
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:164
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:182
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:207
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:243
 msgid "Help Text"
 msgstr "Texte d'aide"
 
-#: .\fields.py:163 .\wagtailstreamforms_fields.py:75
-#: .\wagtailstreamforms_fields.py:105 .\wagtailstreamforms_fields.py:135
-#: .\wagtailstreamforms_fields.py:165 .\wagtailstreamforms_fields.py:183
-#: .\wagtailstreamforms_fields.py:208 .\wagtailstreamforms_fields.py:244
+#: .\venv\Lib\site-packages\wagtailstreamforms\fields.py:163
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:75
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:105
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:135
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:165
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:183
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:208
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:244
 msgid "Required"
 msgstr "Requis"
 
-#: .\fields.py:164
+#: .\venv\Lib\site-packages\wagtailstreamforms\fields.py:164
 msgid "Default Value"
 msgstr "Valeur par défaut"
 
-#: .\fields.py:179
+#: .\venv\Lib\site-packages\wagtailstreamforms\fields.py:179
 msgid "Send an email with the submission"
-msgstr "Envoyer un email aux administrateurs"
+msgstr "Recevoir un mail"
 
-#: .\fields.py:180
+#: .\venv\Lib\site-packages\wagtailstreamforms\fields.py:180
 msgid "Save the form submission data to the database"
-msgstr "Sauvegarder les données soumises"
+msgstr "Sauvegarder les données"
 
-#: .\forms.py:57
+#: .\venv\Lib\site-packages\wagtailstreamforms\forms.py:57
 msgid "Date from"
 msgstr "A partir de"
 
-#: .\forms.py:60
+#: .\venv\Lib\site-packages\wagtailstreamforms\forms.py:60
 msgid "Date to"
 msgstr "Jusqu'à"
 
-#: .\models\file.py:11
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\file.py:11
 msgid "Submission"
 msgstr "Soumission"
 
-#: .\models\file.py:15
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\file.py:15
 msgid "Field"
 msgstr "Champ"
 
-#: .\models\file.py:16
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\file.py:16
 msgid "File"
 msgstr "Fichier"
 
-#: .\models\file.py:23
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\file.py:23
 msgid "Form submission file"
 msgstr "Fichier de soumission de formulaire"
 
-#: .\models\form.py:35
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:35
 msgid "Title"
 msgstr "Titre"
 
-#: .\models\form.py:37
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:37
 msgid "Slug"
 msgstr "Slug"
 
-#: .\models\form.py:41
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:41
 msgid "Used to identify the form in template tags"
 msgstr "Utilisé pour identifier le formulaire dans les balises de modèle"
 
-#: .\models\form.py:44
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:44
 msgid "Template"
 msgstr "Modèle"
 
-#: .\models\form.py:46 .\models\form.py:94
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:46
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:94
 msgid "Fields"
 msgstr "Champs"
 
-#: .\models\form.py:48
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:48
 msgid "Submit button text"
 msgstr "Texte du bouton de soumission"
 
-#: .\models\form.py:51
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:51
 msgid "Success message"
 msgstr "Message de réussite"
 
-#: .\models\form.py:55
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:55
 msgid ""
 "An optional success message to show when the form has been successfully "
 "submitted"
 msgstr ""
-"Un message de succès facultatif à afficher lorsque le formulaire a été "
+"Un message facultatif à afficher lorsque le formulaire a été "
 "soumis avec succès"
 
-#: .\models\form.py:59
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:59
 msgid "Error message"
 msgstr "Message d'erreur"
 
-#: .\models\form.py:62
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:62
 msgid "An optional error message to show when the form has validation errors"
 msgstr ""
-"Un message d'erreur facultatif à afficher lorsque le formulaire comporte des "
+"Un message facultatif à afficher lorsque le formulaire comporte des "
 "erreurs de validation"
 
-#: .\models\form.py:66
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:66
 msgid "Post redirect page"
 msgstr "Page de redirection après publication"
 
-#: .\models\form.py:71
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:71
 msgid "The page to redirect to after a successful submission"
 msgstr "La page vers laquelle rediriger après une soumission réussie"
 
-#: .\models\form.py:73
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:73
 msgid "Submission hooks"
-msgstr "Lors d'une soumissions de formulaire :"
+msgstr "Lorsqu'un formulaire est soumis :"
 
-#: .\models\form.py:83
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:83
 msgid "Messages"
 msgstr "Messages"
 
-#: .\models\form.py:93
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:93
 msgid "General"
 msgstr "Général"
 
-#: .\models\form.py:104 .\models\submission.py:11
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:104
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\submission.py:11
 msgid "Form"
 msgstr "Formulaire"
 
-#: .\models\form.py:105
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:105
 msgid "Forms"
 msgstr "Formulaires"
 
-#: .\models\form.py:143
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:143
 msgid "Submission date"
 msgstr "Date de soumission"
 
-#: .\models\form.py:149
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\form.py:149
 msgid "Form reference"
 msgstr "Référence du formulaire"
 
-#: .\models\submission.py:10
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\submission.py:10
 msgid "Form data"
 msgstr "Données du formulaire"
 
-#: .\models\submission.py:12
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\submission.py:12
 msgid "Submit time"
 msgstr "Heure de soumission"
 
-#: .\models\submission.py:27
+#: .\venv\Lib\site-packages\wagtailstreamforms\models\submission.py:27
 msgid "Form submission"
 msgstr "Soumission de formulaire"
 
-#: .\templates\streamforms\advanced_settings.html:3
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\advanced_settings.html:3
 #, python-format
 msgid "Advanced form settings for %(form_title)s"
 msgstr "Paramètres avancés du formulaire pour %(form_title)s"
 
-#: .\templates\streamforms\advanced_settings.html:7
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\advanced_settings.html:7
 msgid "Advanced form settings"
 msgstr "Paramètres avancés du formulaire"
 
-#: .\templates\streamforms\advanced_settings.html:20
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\advanced_settings.html:20
 msgid "Save"
 msgstr "Enregistrer"
 
-#: .\templates\streamforms\confirm_copy.html:3
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_copy.html:3
 #, python-format
 msgid "Copy of %(form_title)s"
 msgstr "Copie de %(form_title)s"
 
-#: .\templates\streamforms\confirm_copy.html:7
-#: .\templates\streamforms\confirm_copy.html:21 .\wagtail_hooks.py:75
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_copy.html:7
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_copy.html:21
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:75
 msgid "Copy"
 msgstr "Copier"
 
-#: .\templates\streamforms\confirm_copy.html:11
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_copy.html:11
 msgid "Are you sure you want to copy this form?"
 msgstr "Êtes-vous sûr de vouloir copier ce formulaire ?"
 
-#: .\templates\streamforms\confirm_delete.html:3
-#: .\templates\streamforms\index_submissions.html:3
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_delete.html:3
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\index_submissions.html:3
 #, python-format
 msgid "Submissions of %(form_title)s"
 msgstr "Soumissions de %(form_title)s"
 
-#: .\templates\streamforms\confirm_delete.html:7
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_delete.html:7
 msgid "Delete form data"
 msgstr "Supprimer les données du formulaire"
 
-#: .\templates\streamforms\confirm_delete.html:12
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_delete.html:12
 msgid ""
 "\n"
 "                Are you sure you want to delete this form submission?\n"
@@ -232,296 +247,301 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\templates\streamforms\confirm_delete.html:20
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\confirm_delete.html:20
 msgid "Delete"
 msgstr "Supprimer"
 
-#: .\templates\streamforms\index_submissions.html:74
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\index_submissions.html:74
 #, python-format
 msgid "Form data <span>%(form_title)s</span>"
 msgstr "Données du formulaire <span>%(form_title)s</span>"
 
-#: .\templates\streamforms\index_submissions.html:83
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\index_submissions.html:83
 msgid "Filter"
 msgstr "Filtrer"
 
-#: .\templates\streamforms\index_submissions.html:89
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\index_submissions.html:89
 msgid "Download CSV"
 msgstr "Télécharger CSV"
 
-#: .\templates\streamforms\index_submissions.html:101
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\index_submissions.html:101
 #, python-format
 msgid "There have been no submissions of the '%(title)s' form."
 msgstr "Il n'y a eu aucune soumission du formulaire '%(title)s'."
 
-#: .\templates\streamforms\list_submissions.html:11
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\list_submissions.html:11
 msgid "Delete selected submissions"
 msgstr "Supprimer les soumissions sélectionnées"
 
-#: .\templates\streamforms\list_submissions.html:41
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\list_submissions.html:41
 msgid "Files"
 msgstr "Fichiers"
 
-#: .\templates\streamforms\non_existent_form.html:2
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\non_existent_form.html:2
 msgid "Sorry, this form has been deleted."
 msgstr "Désolé, ce formulaire a été supprimé."
 
-#: .\templates\streamforms\partials\pagination_nav.html:4
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\partials\pagination_nav.html:4
 #, python-format
 msgid "Page %(page_num)s of %(total_pages)s."
 msgstr "Page %(page_num)s sur %(total_pages)s."
 
-#: .\templates\streamforms\partials\pagination_nav.html:8
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\partials\pagination_nav.html:8
 msgid "Previous"
 msgstr "Précédent"
 
-#: .\templates\streamforms\partials\pagination_nav.html:13
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\partials\pagination_nav.html:13
 msgid "Next"
 msgstr "Suivant"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:6
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:6
 msgid "January"
 msgstr "Janvier"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:7
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:7
 msgid "February"
 msgstr "Février"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:8
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:8
 msgid "March"
 msgstr "Mars"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:9
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:9
 msgid "April"
 msgstr "Avril"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:10
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:10
 msgid "May"
 msgstr "Mai"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:11
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:11
 msgid "June"
 msgstr "Juin"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:12
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:12
 msgid "July"
 msgstr "Juillet"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:13
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:13
 msgid "August"
 msgstr "Août"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:14
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:14
 msgid "September"
 msgstr "Septembre"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:15
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:15
 msgid "October"
 msgstr "Octobre"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:16
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:16
 msgid "November"
 msgstr "Novembre"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:17
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:17
 msgid "December"
 msgstr "Décembre"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:20
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:20
 msgid "Sunday"
 msgstr "Dimanche"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:21
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:21
 msgid "Monday"
 msgstr "Lundi"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:22
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:22
 msgid "Tuesday"
 msgstr "Mardi"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:23
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:23
 msgid "Wednesday"
 msgstr "Mercredi"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:24
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:24
 msgid "Thursday"
 msgstr "Jeudi"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:25
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:25
 msgid "Friday"
 msgstr "Vendredi"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:26
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:26
 msgid "Saturday"
 msgstr "Samedi"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:29
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:29
 msgid "Sun"
 msgstr "Dim"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:30
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:30
 msgid "Mon"
 msgstr "Lun"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:31
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:31
 msgid "Tue"
 msgstr "Mar"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:32
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:32
 msgid "Wed"
 msgstr "Mer"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:33
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:33
 msgid "Thu"
 msgstr "Jeu"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:34
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:34
 msgid "Fri"
 msgstr "Ven"
 
-#: .\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:35
+#: .\venv\Lib\site-packages\wagtailstreamforms\templates\streamforms\wagtailadmin\shared\datetimepicker_translations.html:35
 msgid "Sat"
 msgstr "Sam"
 
-#: .\views\advanced_settings.py:24
+#: .\venv\Lib\site-packages\wagtailstreamforms\views\advanced_settings.py:24
 #, python-format
 msgid "Form '%s' advanced settings updated."
 msgstr "Paramètres avancés du formulaire '%s' mis à jour."
 
-#: .\views\copy.py:17
+#: .\venv\Lib\site-packages\wagtailstreamforms\views\copy.py:17
 msgid "New title"
 msgstr "Nouveau titre"
 
-#: .\views\copy.py:18
+#: .\venv\Lib\site-packages\wagtailstreamforms\views\copy.py:18
 msgid "New slug"
 msgstr "Nouveau slug"
 
-#: .\views\copy.py:30
+#: .\venv\Lib\site-packages\wagtailstreamforms\views\copy.py:30
 #, python-format
 msgid "Form '%s' copied to '%s'."
 msgstr "Formulaire '%s' copié vers '%s'."
 
-#: .\views\submission_delete.py:65
+#: .\venv\Lib\site-packages\wagtailstreamforms\views\submission_delete.py:65
 #, python-format
 msgid "One submission has been deleted."
 msgid_plural "%(count)d submissions have been deleted."
 msgstr[0] "%(count)d soumission a été supprimée."
 msgstr[1] "%(count)d soumissions ont été supprimées."
 
-#: .\views\submission_list.py:44
+#: .\venv\Lib\site-packages\wagtailstreamforms\views\submission_list.py:44
 msgid "No Form found matching the query"
 msgstr "Aucun formulaire correspondant à la requête n'a été trouvé"
 
-#: .\wagtail_hooks.py:62
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:62
 msgid "Advanced"
 msgstr "Avancé"
 
-#: .\wagtail_hooks.py:63
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:63
 msgid "Advanced settings"
 msgstr "Paramètres avancés"
 
-#: .\wagtail_hooks.py:76
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:76
 msgid "Copy this form"
 msgstr "Copier ce formulaire"
 
-#: .\wagtail_hooks.py:87
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:87
 msgid "Submissions"
 msgstr "Soumissions"
 
-#: .\wagtail_hooks.py:88
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:88
 msgid "Submissions of this form"
 msgstr "Soumissions de ce formulaire"
 
-#: .\wagtail_hooks.py:170
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:170
 msgid "Latest submission"
 msgstr "Dernière soumission"
 
-#: .\wagtail_hooks.py:176
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:176
 msgid "Saved submissions"
 msgstr "Soumissions enregistrées"
 
-#: .\wagtail_hooks.py:237 .\wagtail_hooks.py:242
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:237
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:242
 msgid "Choose a form"
 msgstr "Choisir un formulaire"
 
-#: .\wagtail_hooks.py:243
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:243
 msgid "Choose another form"
 msgstr "Choisir un autre formulaire"
 
-#: .\wagtail_hooks.py:244
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtail_hooks.py:244
 msgid "Edit this form"
 msgstr "Modifier ce formulaire"
 
-#: .\wagtailstreamforms_fields.py:13
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:13
 msgid "Text field (single line)"
 msgstr "Champ texte (une ligne)"
 
-#: .\wagtailstreamforms_fields.py:19
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:19
 msgid "Text field (multi line)"
 msgstr "Champ texte (plusieurs lignes)"
 
-#: .\wagtailstreamforms_fields.py:25
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:25
 msgid "Date field"
 msgstr "Champ date"
 
-#: .\wagtailstreamforms_fields.py:31
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:31
 msgid "Time field"
 msgstr "Champ heure"
 
-#: .\wagtailstreamforms_fields.py:37
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:37
 msgid "Email field"
 msgstr "Champ email"
 
-#: .\wagtailstreamforms_fields.py:43
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:43
 msgid "URL field"
 msgstr "Champ URL"
 
-#: .\wagtailstreamforms_fields.py:48
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:48
 msgid "Number field"
 msgstr "Champ numérique"
 
-#: .\wagtailstreamforms_fields.py:54
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:54
 msgid "Dropdown field"
 msgstr "Menu déroulant"
 
-#: .\wagtailstreamforms_fields.py:76
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:76
 msgid "Empty Label"
 msgstr "Option par défaut"
 
-#: .\wagtailstreamforms_fields.py:77 .\wagtailstreamforms_fields.py:106
-#: .\wagtailstreamforms_fields.py:136 .\wagtailstreamforms_fields.py:166
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:77
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:106
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:136
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:166
 msgid "Option"
 msgstr "Option"
 
-#: .\wagtailstreamforms_fields.py:77 .\wagtailstreamforms_fields.py:106
-#: .\wagtailstreamforms_fields.py:136 .\wagtailstreamforms_fields.py:166
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:77
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:106
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:136
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:166
 msgid "Options"
 msgstr "Choix"
 
-#: .\wagtailstreamforms_fields.py:87
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:87
 msgid "Multiselect field"
 msgstr "Champ de sélection multiple"
 
-#: .\wagtailstreamforms_fields.py:117
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:117
 msgid "Radio buttons"
 msgstr "Boutons radio"
 
-#: .\wagtailstreamforms_fields.py:147
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:147
 msgid "Checkboxes"
 msgstr "Cases à cocher"
 
-#: .\wagtailstreamforms_fields.py:176
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:176
 msgid "Checkbox field"
 msgstr "Case à cocher"
 
-#: .\wagtailstreamforms_fields.py:194
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:194
 msgid "Hidden field"
 msgstr "Champ caché"
 
-#: .\wagtailstreamforms_fields.py:201
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:201
 msgid "File field"
 msgstr "Champ fichier"
 
-#: .\wagtailstreamforms_fields.py:237
+#: .\venv\Lib\site-packages\wagtailstreamforms\wagtailstreamforms_fields.py:237
 msgid "Files field"
 msgstr "Champ fichiers"
