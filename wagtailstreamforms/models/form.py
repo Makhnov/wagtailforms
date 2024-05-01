@@ -41,7 +41,10 @@ class AbstractForm(models.Model):
         help_text=_("Used to identify the form in template tags"),
     )
     template_name = models.CharField(
-        _("Template"), max_length=255, choices=get_setting("FORM_TEMPLATES")
+        _("Template"), 
+        max_length=255, 
+        choices=get_setting("FORM_TEMPLATES"),
+        default='widgets/forms/form.html',
     )
     fields = FormFieldsStreamField([], use_json_field=True, verbose_name=_("Fields"))
     submit_button_text = models.CharField(
